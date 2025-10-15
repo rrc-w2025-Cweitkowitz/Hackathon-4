@@ -7,10 +7,9 @@
 ## Team Members:
 
 -   Connor Weitkowitz
--   Name 2
+-   Thea C
 -   Chan Madut
 -   Rudra
-
 
 ## Member Contributions:
 
@@ -18,9 +17,11 @@
 
 -   Personal information section, covering all the inputs from  the name to the email
 
-### Name 2:
+### Thea:
 
--   Was responsible for [specific tasks], focusing on [specific HTML elements].
+-  Handled the Education history section of the job application form for module 4's hackathon.
+-  2 education levels: Highschool and College/University
+-  4 fields for each school. Textboxes and Checkbox. 
 
 ### Chan Madut:
 
