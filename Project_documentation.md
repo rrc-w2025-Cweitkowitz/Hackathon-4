@@ -20,6 +20,6 @@
 
 -   Was responsible for [specific tasks], focusing on [specific HTML elements].
 
-### Name 3:
+### Name 3: rudra
 
--   Handled [specific sections], covering [specific topics or features].
+-   rudra working on genereal.
