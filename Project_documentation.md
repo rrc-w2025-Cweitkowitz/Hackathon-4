@@ -27,4 +27,4 @@
 
 ### Connor Weitkowitz:
 
--   Personal information section.
+-   Personal information section, covering all the inputs from  the name to the email
