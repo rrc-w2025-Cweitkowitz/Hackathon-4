@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Module 4: HTML Forms and JavaScript</title>
+		<link rel="stylesheet" href="styles.css" />
 		<style>
 			.error-message {
 				color: red;
@@ -12,23 +13,38 @@
 	</head>
 	<body>
 		<form id="userForm" method="post">
+			<h1>Employment Desired</h1>
 			<div class="input-container">
-				<label for="username">Username:</label>
-
-				<input type="text" id="username" name="username" />
-
+				<label for="position">Position:</label>
+				<input type="text" id="position" name="position" />
 			</div>
-
-
 			<div class="input-container">
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email" />
+				<label for="start-date">Preferred Start Date:</label>
+				<input type="text" id="start-date" name="start-date" />
 			</div>
-
-
+			<div class="input-container">
+				<p id="employed">Are you currently employed?:</p>
+				<input type="radio" id="status-yes" name="employment-status" value="yes"/>
+				<label for="status-yes">Yes</label>
+				<input type="radio" id="status-no" name="employment-status" value="no"/>
+				<label for="status-no">No</label>
+			</div>
+			<div class="input-container">
+				<p id="inquiry">If so, may we inquire of your present employer?:</p>
+				<input type="radio" id="inquiry-yes" name="status-inquiry" value="yes"/>
+				<label for="inquiry-yes">Yes</label>
+				<input type="radio" id="inquiry-no" name="status-inquiry" value="no"/>
+				<label for="inquiry-no">No</label>
+			</div>
+			<div class="input-container">
+				<p id="applied">Ever applied to this company before?:</p>
+				<input type="radio" id="applied-yes" name="applied-before" value="yes"/>
+				<label for="applied-yes">Yes</label>
+				<input type="radio" id="applied-no" name="applied-before" value="no"/>
+				<label for="applied-no">No</label>
+			</div>
 			<button type="submit">Submit</button>
 		</form>
-
 		<footer>
 			<script src="script.js"></script>
 		</footer>
