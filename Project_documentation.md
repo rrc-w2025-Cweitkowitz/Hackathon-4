@@ -6,16 +6,16 @@
 
 ## Team Members:
 
--   Name 1
+-   Connor Weitkowitz
 -   Name 2
 -   Name 3
--   Connor Weitkowitz
+
 
 ## Member Contributions:
 
-### Name 1:
+### Connor Weitkowitz:
 
--   Worked on [specific elements] of the webpage.
+-   Personal information section, covering all the inputs from  the name to the email
 
 ### Name 2:
 
@@ -25,6 +25,3 @@
 
 -   Handled [specific sections], covering [specific topics or features].
 
-### Connor Weitkowitz:
-
--   Personal information section, covering all the inputs from  the name to the email
