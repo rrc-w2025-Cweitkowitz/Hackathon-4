@@ -7,7 +7,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
 }
 
 form {
@@ -18,17 +17,6 @@ form {
 	border-radius: 0.5em;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	text-align: center;
-}
-
-input,
-select,
-textarea {
-	width: 100%;
-	padding: 0.625em;
-	margin-top: 0.3125em;
-	margin-bottom: 0.9375em;
-	border: 1px solid #ddd;
-	border-radius: 0.25em;
 }
 
 button {

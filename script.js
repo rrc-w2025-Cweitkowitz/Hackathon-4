@@ -43,10 +43,10 @@ const validateForm = () => {
     }
 
     const province = document.querySelector("#province")
-        if (province.value === "default") {
-            showInputError(province, "You must select a province to continue.")
-            isValid = false;
-        }
+    if (province.value === "default") {
+        showInputError(province, "You must select a province to continue.")
+        isValid = false;
+    }
 
 // This is not my work but would be what i had come up with anyways so it didnt make sense to
 // remove it just to re-add it.
@@ -92,7 +92,7 @@ const validateForm = () => {
     }
 
     return isValid;
-}
+}}
 
 
 const showInputError = (inputElement, message) => {
