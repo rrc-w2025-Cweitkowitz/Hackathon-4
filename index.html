@@ -3,45 +3,44 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Module 4: HTML Forms and JavaScript</title>
-		<style>
-			.error-message {
-				color: red;
-				font-style: italic;
-			}
-		</style>
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
 		<form id="userForm" method="post">
-			<h1>Application For Employment</h1>
-			<p>Pre-Employment Questionnaire</p>
-			<div class="input-container">
-				<h2>Personal Information</h2>
+			<div class="title">
+				<h1>Application For Employment</h1>
+				<p>Pre-Employment Questionnaire</p>
+			</div>
+
+			<div class="input-container personal-info">
+				<h2 class="title">Personal Information</h2>
 				<label for="fullName">Name (Last then first name): </label>
 				<input type="text" id="fullName" name="fullName"/>
-				
+
 				<label for="SSN">Social Security No.</label>
 				<input type="text" id="SSN" name="SSN"/>
 				
 				<br>
-				
-				<label for="city">City:</label>
-				<input type="text" id="city" name="city"/>
-				<label for="province">Province: </label>
-				<input type="text" id="province" name="province">
-				<label for="zipCode">Zip Code: </label>
-				<input type="text" id="zipCode" name="zipCode">
-				<br>
+				<div class="personal-info1">
+					<label for="city">City:</label>
+					<input type="text" id="city" name="city"/>
+					<label for="province">Province: </label>
+					<input type="text" id="province" name="province">
+					<label for="zipCode">Zip Code: </label>
+					<input type="text" id="zipCode" name="zipCode">
+				</div>
+				<div class="personal-info2">
+					<label for="phoneNumber">Phone Number: </label>
+					<input type="tel" name="phoneNumber" id="phoneNumber">
+					<label for="email">Email: </label>
+					<input type="email" id="email" name="email">
+				</div>
 
-				<label for="phoneNumber">Phone Number: </label>
-				<input type="tel" name="phoneNumber" id="phoneNumber">
 
 			</div>
 
 
-			<div class="input-container">
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email" />
-			</div>
+
 
 
 			<button type="submit">Submit</button>
