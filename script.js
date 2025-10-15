@@ -68,3 +68,13 @@ const showInputError = (inputElement, message) => {
 
     inputElement.parentElement.appendChild(errorDisplay);
 }
+
+document.querySelector("form")?.addEventListener("submit", function (e) {
+  const study = document.getElementById("study-research").value.trim();
+  const training = document.getElementById("special-training").value.trim();
+ 
+  if (!study || !training) {
+    alert("Please fill out both the study/research and training/skills fields.");
+    e.preventDefault();
+  }
+});

@@ -43,10 +43,37 @@
 				<input type="radio" id="applied-no" name="applied-before" value="no"/>
 				<label for="applied-no">No</label>
 			</div>
+      <section class="general-info">
+      <h2>General Information</h2>
+
+      <label for="study-research">Subject of Special Study/Research Work</label>
+      <textarea id="study-research" name="studyResearch" rows="3" placeholder="Describe any relevant studies or research..."></textarea>
+
+      <label for="special-training">Special Training or Skills</label>
+      <textarea id="special-training" name="specialTraining" rows="3" placeholder="List any special training, certifications, or skills..."></textarea>
+
+      <fieldset>
+      <legend>U.S. Military Service</legend>
+
+        <label for="military-branch">Branch</label>
+      <input type="text" id="military-branch" name="militaryBranch" placeholder="e.g., Army, Navy, Air Force">
+
+        <label for="military-rank">Rank at Discharge</label>
+      <input type="text" id="military-rank" name="militaryRank" placeholder="e.g., Sergeant">
+
+        <label for="military-years">Years of Service</label>
+      <input type="number" id="military-years" name="militaryYears" min="0" placeholder="e.g., 4">
+
+        <label for="military-type">Type of Discharge</label>
+      <input type="text" id="military-type" name="militaryType" placeholder="e.g., Honorable">
+      </fieldset>
+      </section>
 			<button type="submit">Submit</button>
-		</form>
+		</form>   
 		<footer>
 			<script src="script.js"></script>
 		</footer>
 	</body>
 </html>
+
+

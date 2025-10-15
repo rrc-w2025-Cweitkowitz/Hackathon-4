@@ -9,6 +9,7 @@
 -   Name 1
 -   Name 2
 -   Chan Madut
+-   Rudra
 
 ## Member Contributions:
 
@@ -23,3 +24,7 @@
 ### Chan Madut:
 
 -   Handled building the employment desired section, filled with radio buttons and text inputs, and implemented validation for input values.
+
+### rudra
+
+-   rudra working on genereal.

@@ -48,3 +48,48 @@ button:hover {
     color: red;
     font-style: italic;
 }
+
+.general-info {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+ 
+.general-info h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+ 
+.general-info label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #444;
+}
+ 
+.general-info input,
+.general-info textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+ 
+.general-info fieldset {
+  margin-top: 1.5rem;
+  border: 1px solid #bbb;
+  padding: 1rem;
+  border-radius: 6px;
+}
+ 
+.general-info legend {
+  font-weight: bold;
+  padding: 0 0.5rem;
+}
