@@ -12,10 +12,28 @@
 	</head>
 	<body>
 		<form id="userForm" method="post">
+			<h1>Application For Employment</h1>
+			<p>Pre-Employment Questionnaire</p>
 			<div class="input-container">
-				<label for="username">Username:</label>
+				<h2>Personal Information</h2>
+				<label for="fullName">Name (Last then first name): </label>
+				<input type="text" id="fullName" name="fullName"/>
+				
+				<label for="SSN">Social Security No.</label>
+				<input type="text" id="SSN" name="SSN"/>
+				
+				<br>
+				
+				<label for="city">City:</label>
+				<input type="text" id="city" name="city"/>
+				<label for="province">Province: </label>
+				<input type="text" id="province" name="province">
+				<label for="zipCode">Zip Code: </label>
+				<input type="text" id="zipCode" name="zipCode">
+				<br>
 
-				<input type="text" id="username" name="username" />
+				<label for="phoneNumber">Phone Number: </label>
+				<input type="tel" name="phoneNumber" id="phoneNumber">
 
 			</div>
 

@@ -9,6 +9,7 @@
 -   Name 1
 -   Name 2
 -   Name 3
+-   Connor Weitkowitz
 
 ## Member Contributions:
 
@@ -23,3 +24,7 @@
 ### Name 3:
 
 -   Handled [specific sections], covering [specific topics or features].
+
+### Connor Weitkowitz:
+
+-   Personal information section.
