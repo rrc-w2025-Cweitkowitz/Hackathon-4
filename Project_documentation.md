@@ -8,7 +8,7 @@
 
 -   Name 1
 -   Name 2
--   Name 3
+-   Thea C
 
 ## Member Contributions:
 
@@ -22,4 +22,6 @@
 
 ### Name 3:
 
--   Handled [specific sections], covering [specific topics or features].
+-  Handled the Education history section of the job application form for module 4's hackathon.
+-  2 education levels: Highschool and College/University
+-  4 fields for each school. Textboxes and Checkbox. 
