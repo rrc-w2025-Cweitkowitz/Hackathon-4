@@ -6,16 +6,17 @@
 
 ## Team Members:
 
--   Name 1
+-   Connor Weitkowitz
 -   Name 2
 -   Chan Madut
 -   Rudra
 
+
 ## Member Contributions:
 
-### Name 1:
+### Connor Weitkowitz:
 
--   Worked on [specific elements] of the webpage.
+-   Personal information section, covering all the inputs from  the name to the email
 
 ### Name 2:
 

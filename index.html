@@ -3,16 +3,65 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Module 4: HTML Forms and JavaScript</title>
-		<link rel="stylesheet" href="styles.css" />
-		<style>
-			.error-message {
-				color: red;
-				font-style: italic;
-			}
-		</style>
+
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
 		<form id="userForm" method="post">
+			<div class="title">
+				<h1>Application For Employment</h1>
+				<p>Pre-Employment Questionnaire</p>
+			</div>
+
+			<div class="input-container personal-info">
+				<h2 class="title">Personal Information</h2>
+				<div>
+					<label for="fullName">Name (Last then first name): </label>
+					<input type="text" id="fullName" name="fullName"/>
+				</div>
+				<div>
+					<label for="SSN">Social Security No.</label>
+					<input type="text" id="SSN" name="SSN"/>
+				</div>
+				<div>
+					<label for="city">City:</label>
+					<input type="text" id="city" name="city"/>
+				</div>
+				<div>
+				<fieldset id="provinceDropDown">
+					<legend>Provinces of Canada</legend>
+					<select name="province" id="province">
+						<option value="default" id="default" name="province">Choose a province</option>
+						<option value="AB" id="AB" name="province">Alberta</option>
+						<option value="BC" id="BC" name="province">British Columbia</option>
+						<option value="MB" id="MB" name="province">Manitoba</option>
+						<option value="NB" id="NB" name="province">New Brunswick</option>
+						<option value="NL" id="NL" name="province">Newfoundland and Labrador</option>
+						<option value="ON" id="ON" name="province">Ontario</option>
+						<option value="PE" id="PE" name="province">Prince Edward Island</option>
+						<option value="QC" id="QC" name="province">Quebec</option>
+						<option value="SK" id="SK" name="province">Saskatchewan</option>
+						<option value="NS" id="NS" name="province">Nova Scotia</option>
+						<option value="YT" id="YT" name="province">Yukon</option>
+						<option value="NT" id="NT" name="province">North West Territories</option>
+						<option value="NU" id="NU" name="province">Nunavut</option>
+					</select>
+				</fieldset>
+
+				</div>
+				<div>
+					<label for="postalCode">Postal Code: </label>
+					<input type="text" id="postalCode" name="postalCode">
+				</div>
+				<div>
+					<label for="phoneNumber">Phone Number: </label>
+					<input type="tel" name="phoneNumber" id="phoneNumber">
+				</div>
+				<div>
+					<label for="email">Email: </label>
+					<input type="email" id="email" name="email">
+				</div>
+
 			<h1>Employment Desired</h1>
 			<div class="input-container">
 				<label for="position">Position:</label>
@@ -54,6 +103,7 @@
 
       <fieldset>
       <legend>U.S. Military Service</legend>
+			</div>
 
         <label for="military-branch">Branch</label>
       <input type="text" id="military-branch" name="militaryBranch" placeholder="e.g., Army, Navy, Air Force">
