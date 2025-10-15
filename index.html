@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>Module 4: HTML Forms and JavaScript</title>
+
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
@@ -61,18 +62,68 @@
 					<input type="email" id="email" name="email">
 				</div>
 
+			<h1>Employment Desired</h1>
+			<div class="input-container">
+				<label for="position">Position:</label>
+				<input type="text" id="position" name="position" />
+			</div>
+			<div class="input-container">
+				<label for="start-date">Preferred Start Date:</label>
+				<input type="text" id="start-date" name="start-date" />
+			</div>
+			<div class="input-container">
+				<p id="employed">Are you currently employed?:</p>
+				<input type="radio" id="status-yes" name="employment-status" value="yes"/>
+				<label for="status-yes">Yes</label>
+				<input type="radio" id="status-no" name="employment-status" value="no"/>
+				<label for="status-no">No</label>
+			</div>
+			<div class="input-container">
+				<p id="inquiry">If so, may we inquire of your present employer?:</p>
+				<input type="radio" id="inquiry-yes" name="status-inquiry" value="yes"/>
+				<label for="inquiry-yes">Yes</label>
+				<input type="radio" id="inquiry-no" name="status-inquiry" value="no"/>
+				<label for="inquiry-no">No</label>
+			</div>
+			<div class="input-container">
+				<p id="applied">Ever applied to this company before?:</p>
+				<input type="radio" id="applied-yes" name="applied-before" value="yes"/>
+				<label for="applied-yes">Yes</label>
+				<input type="radio" id="applied-no" name="applied-before" value="no"/>
+				<label for="applied-no">No</label>
+			</div>
+      <section class="general-info">
+      <h2>General Information</h2>
 
+      <label for="study-research">Subject of Special Study/Research Work</label>
+      <textarea id="study-research" name="studyResearch" rows="3" placeholder="Describe any relevant studies or research..."></textarea>
+
+      <label for="special-training">Special Training or Skills</label>
+      <textarea id="special-training" name="specialTraining" rows="3" placeholder="List any special training, certifications, or skills..."></textarea>
+
+      <fieldset>
+      <legend>U.S. Military Service</legend>
 			</div>
 
+        <label for="military-branch">Branch</label>
+      <input type="text" id="military-branch" name="militaryBranch" placeholder="e.g., Army, Navy, Air Force">
 
+        <label for="military-rank">Rank at Discharge</label>
+      <input type="text" id="military-rank" name="militaryRank" placeholder="e.g., Sergeant">
 
+        <label for="military-years">Years of Service</label>
+      <input type="number" id="military-years" name="militaryYears" min="0" placeholder="e.g., 4">
 
-
+        <label for="military-type">Type of Discharge</label>
+      <input type="text" id="military-type" name="militaryType" placeholder="e.g., Honorable">
+      </fieldset>
+      </section>
 			<button type="submit">Submit</button>
-		</form>
-
+		</form>   
 		<footer>
 			<script src="script.js"></script>
 		</footer>
 	</body>
 </html>
+
+

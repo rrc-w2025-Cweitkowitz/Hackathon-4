@@ -1,0 +1,95 @@
+body {
+	font-family: "Arial", sans-serif;
+	background-color: #f4f4f4;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+form {
+	width: 90%;
+	max-width: 31.25em;
+	background: white;
+	padding: 1.25em;
+	border-radius: 0.5em;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+input,
+select,
+textarea {
+	width: 100%;
+	padding: 0.625em;
+	margin-top: 0.3125em;
+	margin-bottom: 0.9375em;
+	border: 1px solid #ddd;
+	border-radius: 0.25em;
+}
+
+button {
+	padding: 0.625em 1.25em;
+	background-color: #008cba;
+	color: white;
+	border: none;
+	border-radius: 0.3125em;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #005f73;
+}
+
+.error-message{
+    color: red;
+    font-style: italic;
+}
+
+.general-info {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+ 
+.general-info h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+ 
+.general-info label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #444;
+}
+ 
+.general-info input,
+.general-info textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+ 
+.general-info fieldset {
+  margin-top: 1.5rem;
+  border: 1px solid #bbb;
+  padding: 1rem;
+  border-radius: 6px;
+}
+ 
+.general-info legend {
+  font-weight: bold;
+  padding: 0 0.5rem;
+}

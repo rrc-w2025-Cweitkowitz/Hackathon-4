@@ -2,7 +2,6 @@
 const form = document.getElementById("userForm");
 
 form.addEventListener("submit", (event) => {
-
     event.preventDefault();
 
     const errorMessages = document.querySelectorAll(".error-message");
@@ -17,12 +16,9 @@ form.addEventListener("submit", (event) => {
     } else {
         console.log("Validation failed");
     }
-
-
 })
 
 const validateForm = () => {
-
     let isValid = true;
 
     const fullName = document.getElementById("fullName")
@@ -58,6 +54,40 @@ const validateForm = () => {
     const complexEmailPattern = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
     if (!complexEmailPattern.test(emailInput.value)) {
         showInputError(emailInput, "Please enter a valid email address");
+
+    const employed = document.getElementById("employed");
+    const inquiry = document.getElementById("inquiry");
+    const applied = document.getElementById("applied");
+    const position = document.getElementById("position");
+    const startDate = document.getElementById("start-date");
+    const employmentStatusYes = document.getElementById("status-yes");
+    const employmentStatusChecked = document.querySelector('input[name = "employment-status"]:checked');
+    const statusInquiryChecked = document.querySelector('input[name = "status-inquiry"]:checked');
+    const appliedBeforeChecked = document.querySelector('input[name = "applied-before"]:checked');
+
+    if (position.value === "") {
+        showInputError(position, "You must select a position");
+        isValid = false;
+    }
+
+    if (startDate.value === "") {
+        showInputError(startDate, "You must provide a preferred start date");
+        isValid = false;
+    }
+
+    if (employmentStatusChecked == null) {
+        showInputError(employed, "One must be selected");
+        isValid = false;
+    }
+
+    if (employmentStatusYes.checked && statusInquiryChecked == null) {
+        showInputError(inquiry, "One must be selected");
+        isValid = false;
+    }
+
+    if (appliedBeforeChecked == null) {
+        showInputError(applied, "One must be selected");
+
         isValid = false;
     }
 
@@ -66,11 +96,20 @@ const validateForm = () => {
 
 
 const showInputError = (inputElement, message) => {
-
-    const errorDisplay = document.createElement("span");
+    const errorDisplay = document.createElement("div");
     errorDisplay.innerText = message;
     errorDisplay.className = "error-message";
     errorDisplay.setAttribute("role", "alert");
 
     inputElement.parentElement.appendChild(errorDisplay);
 }
+
+document.querySelector("form")?.addEventListener("submit", function (e) {
+  const study = document.getElementById("study-research").value.trim();
+  const training = document.getElementById("special-training").value.trim();
+ 
+  if (!study || !training) {
+    alert("Please fill out both the study/research and training/skills fields.");
+    e.preventDefault();
+  }
+});
